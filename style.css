@@ -437,6 +437,13 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0.5rem;
+  background-color: var(--third-color);
+  width: max-content;
+  padding: 0.5rem;
+  color: var(--text-color);
+  border-radius: 0.2rem;
+  font-weight: 600;
 }
 
 .about-perfil {
@@ -457,6 +464,7 @@ li {
     align-self: self-start;
   }
   .about-description > div a {
+    display: inline-block;
     margin-left: 0;
     margin-right: auto;
   }
@@ -909,8 +917,9 @@ li {
   display: block;
   background-color: var(--third-color);
   padding: 1rem;
-  width: 200px;
-  border-radius: 0.5rem;
+  margin: 0.5rem;
+  width: max-content;
+  border-radius: 0.3rem;
   font-weight: bold;
   font-size: 1.25rem;
   color: var(--text-color);
